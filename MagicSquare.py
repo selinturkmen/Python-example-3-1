@@ -1,8 +1,6 @@
 
 def is_magic(X):
-    """
-    Write your code inside this function.
-    """
+
 
     N= len(list(X))
     
@@ -32,12 +30,6 @@ def is_magic(X):
  
 
 def main():
-    """
-    You can test your is_magic function via the function calls below.
-    You can add more tests if you want to, but you do not have to. 
-    You will not be graded on what is inside your main() function, but
-    make sure that it does not cause a syntax error.
-    """
    
     print(is_magic([[4, 9, 2], [3, 5, 7], [8, 1, 6]]))
     print(is_magic([[4, 9, 7], [3, 5], [8, 1, 6]]))
@@ -45,8 +37,6 @@ def main():
 
     
 ################################################################ 
-"""
-DO NOT EDIT BELOW THIS LINE
-"""
+
 if __name__ == '__main__':
     main()
